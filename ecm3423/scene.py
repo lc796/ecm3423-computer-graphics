@@ -74,10 +74,10 @@ class Scene:
             self.running = False
 
         elif event.key == pygame.K_0:
-            glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
+            glPolygonMode(GL_FRONT_AND_BACK, GL_LINE)
 
         elif event.key == pygame.K_1:
-            glPolygonMode(GL_FRONT_AND_BACK, GL_FILL);
+            glPolygonMode(GL_FRONT_AND_BACK, GL_FILL)
 
         self.camera.keyboard(event)
 
